@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FC Retro — Echipa</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" href="images/soccer-ball.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">FC Retro</h1>
+      <nav class="nav">
+        <a href="#home">Acasă</a>
+        <a href="#squad">Lot</a>
+        <a href="#history">Istoric</a>
+        <a href="#stadium">Stadion</a>
+        <a href="#contact">Contact</a>
+        <button id="darkToggle" class="btn small">Dark</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Echipa care aduce fotbalul înapoi la rădăcini</h2>
+          <p>FC Retro — pasiune, tradiție și spirit de luptă. Descoperă jucătorii, istoria și stadionul nostru.</p>
+          <a href="#squad" class="btn">Vezi Lotul</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://via.placeholder.com/560x320?text=FC+Retro" alt="FC Retro" />
+        </div>
+      </div>
+    </section>
+
+    <section id="squad" class="section">
+      <div class="container">
+        <h3>Lotul echipei</h3>
+        <div class="controls">
+          <input id="searchInput" type="search" placeholder="Caută jucător..." />
+          <select id="positionFilter">
+            <option value="all">Toate pozițiile</option>
+            <option value="Goalkeeper">Portar</option>
+            <option value="Defender">Fundaș</option>
+            <option value="Midfielder">Mijlocaș</option>
+            <option value="Forward">Atacant</option>
+          </select>
+        </div>
+        <div id="players" class="players-grid">
+          <!-- Jucătorii sunt inserați din js -->
+        </div>
+      </div>
+    </section>
+
+    <section id="history" class="section alt">
+      <div class="container">
+        <h3>Istoricul echipei</h3>
+        <p>Fondată în 1920, FC Retro are o tradiție bogată în fotbalul local. De-a lungul anilor, clubul s-a remarcat prin dezvoltarea jucătorilor tineri și prin momente memorabile pentru suporteri.</p>
+      </div>
+    </section>
+
+    <section id="stadium" class="section">
+      <div class="container stadium">
+        <div>
+          <h3>Stadionul Nostru</h3>
+          <p>Stadionul Retro are o capacitate de 12.000 și oferă o atmosferă intimă, perfectă pentru meciuri pline de emoție.</p>
+        </div>
+        <div>
+          <img src="https://via.placeholder.com/420x240?text=Stadion+Retro" alt="Stadion" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:contact@fcretro.example">contact@fcretro.example</a></p>
+        <p>Adresă: Str. Fotbalului 1, Orașul Retro</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> FC Retro — Toate drepturile rezervate</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
