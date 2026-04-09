@@ -1,4 +1,5 @@
 FC Retro — Site demo
+Link demo: https://itsiamdev.github.io/football-team-site/
 
 Acest proiect este un site static simplu (HTML, CSS, JS) care prezintă o echipă de fotbal fictivă: FC Retro.
 
